@@ -1,0 +1,18 @@
+/* TRUSTLIST 0.01 */
+
+Licensed under MIT LICENSE (http://www.opensource.org/licenses/MIT)
+
+Description:
+
+TrustList is a tool for deriving a TrustNet by recursively crawling twitter lists with a given name (e.g. "ows-tusted")
+
+Requirements:
+
+tweepy 1.7.1 or later (http://pypi.python.org/pypi/tweepy/)
+a Twitter read-only auth key (register for one at dev.twitter.com)
+
+To run:
+
+1. Rename settings_template.py to settings.py
+2. Update the file with your own API credentials, seed user and list name
+3. Run 'python trustlist.py' from the command line
